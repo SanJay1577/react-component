@@ -45,7 +45,7 @@ export default App;
 
 function Profile({image, name, batch}){
   return(
-    <div className='profile'>
+    <div className='profile class-name'>
       <img src={image} alt={name}/>
       <h2>{name}</h2>
       <p>{batch}</p>
